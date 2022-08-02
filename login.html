@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+        <title>Textile Website</title>
+        <link rel="stylesheet" href="style.css"
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png", width="50%", height="50%"></a>
+                <div class="nav-links" id="navLinks">
+                    
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="our collection.html">OUR COLLECTION</a></li>
+                        <li><a href="contact page.html">CONTACT US</a></li>
+                        <li><a href="login.html">LOGIN</a></li>
+                    </ul>
+                </div>
+                
+            </nav>
+            <h1>Login Page</h1>
+        </section>
+        <div class="container">
+            <img src="images/login.png"/>
+                <form>
+                    <div class="form-input">
+                        <input type="text" name="text" placeholder="Enter the User Name"/>	
+                    </div>
+                    <div class="form-input">
+                        <input type="password" name="password" placeholder="password"/>
+                    </div>
+                    <input type="submit" type="submit" value="LOGIN" class="btn-login"/>
+                </form>
+            </div>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px"
+            }
+        </script>
+         
+    </body>
+</html>
